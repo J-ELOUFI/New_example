@@ -61,8 +61,8 @@
             <url>https://mymavenrepo.com/repo/FN8PIshHk5uALNhkXbhs/</url>
         </repository>
     </repositories>
-      <distributionManagement>
-       <repository>
+    <distributionManagement>
+        <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
             <url>http://192.168.10.84/:8082/#browse/browse/assets:Test-job-Jenkins-rel/</url>
@@ -72,10 +72,7 @@
             <name>Internal Snapshot Releases</name>
             <url>http://192.168.10.84/:8082/#browse/browse/assets:Test-job-Jenkins</url>
         </snapshotRepository>
-        <repository>
-            <id>myMavenRepo.write</id>
-            <url>https://mymavenrepo.com/repo/9Q8JoRpymi4UGK8HzbVq/</url>
-        </repository>
+     
     </distributionManagement>
 
 </project>
